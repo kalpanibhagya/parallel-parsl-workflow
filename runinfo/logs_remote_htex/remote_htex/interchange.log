@@ -1,0 +1,6 @@
+2019-11-26 17:39:14.971 interchange:155 [INFO]  Attempting connection to client at 127.0.0.1 on ports: 55338,55791,55548
+2019-11-26 17:39:14.998 interchange:168 [INFO]  Connected to client
+2019-11-26 17:39:14.999 interchange:204 [INFO]  Bound to ports 54143,54172 for incoming worker connections
+2019-11-26 17:39:15.000 interchange:218 [INFO]  Platform info: {'os': 'Linux', 'dir': '/home/mpiuser/Downloads/parallel', 'hostname': 'kalpani-Aspire-E5-574G', 'python_v': '3.5.2', 'parsl_v': '0.9.0'}
+2019-11-26 17:39:15.001 interchange:336 [INFO]  Incoming ports bound
+2019-11-26 17:39:15.002 interchange:253 [INFO]  [TASK_PULL_THREAD] Starting
