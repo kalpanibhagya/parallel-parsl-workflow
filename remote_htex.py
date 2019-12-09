@@ -29,7 +29,10 @@ remote_htex = Config(
             provider=AdHocProvider(
                 # Command to be run before starting a worker, such as:
                 # 'module load Anaconda; source activate parsl_env'.
-                worker_init='',
+                worker_init="""
+		source /etc/profile
+		source ~/.profile
+		""",
                 channels=[SSHChannel(hostname=m,
                                      username=user_opts['adhoc']['username'],
                                      script_dir=user_opts['adhoc']['script_dir'],
