@@ -23,7 +23,7 @@ remote_htex = Config(
         HighThroughputExecutor(
             label='remote_htex',
 	    address = '10.22.200.65',
-            max_workers=5,
+            max_workers=4,
             #address=address_by_query(),
             worker_logdir_root=user_opts['adhoc']['script_dir'],
             provider=AdHocProvider(
