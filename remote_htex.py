@@ -13,7 +13,7 @@ from parsl.executors import HighThroughputExecutor
 user_opts = {'adhoc':
              {'username': 'clusteruser',
               'script_dir': '/home/clusteruser/parallel-parsl-workflow/',
-              'remote_hostnames': ['192.168.1.1','192.168.1.2','192.168.1.3','192.168.1.4','192.168.1.5']
+              'remote_hostnames': ['192.168.1.2','192.168.1.3','192.168.1.4','192.168.1.5']
              }
 }
 
