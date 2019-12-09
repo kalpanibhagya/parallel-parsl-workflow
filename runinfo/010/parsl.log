@@ -1,0 +1,197 @@
+2019-11-29 17:14:50.694 parsl.dataflow.dflow:83 [DEBUG]  Starting DataFlowKernel with config
+Config(
+    app_cache=True, 
+    checkpoint_files=None, 
+    checkpoint_mode=None, 
+    checkpoint_period=None, 
+    data_management_max_threads=10, 
+    executors=[HighThroughputExecutor(
+        address='10.0.0.1', 
+        cores_per_worker=1.0, 
+        heartbeat_period=30, 
+        heartbeat_threshold=120, 
+        interchange_port_range=(55000, 56000), 
+        label='remote_htex', 
+        launch_cmd='process_worker_pool.py {debug} {max_workers} -p {prefetch_capacity} -c {cores_per_worker} -m {mem_per_worker} --poll {poll_period} --task_url={task_url} --result_url={result_url} --logdir={logdir} --block_id={{block_id}} --hb_period={heartbeat_period} --hb_threshold={heartbeat_threshold} ', 
+        managed=True, 
+        max_workers=2, 
+        mem_per_worker=None, 
+        poll_period=10, 
+        prefetch_capacity=0, 
+        provider=AdHocProvider(
+            channels=[SSHChannel(
+                '10.0.0.1',
+                envs={}, 
+                gssapi_auth=False, 
+                password=None, 
+                port=22, 
+                script_dir='/home/mpiuser/Downloads/parallel-parsl-workflow/', 
+                skip_auth=False, 
+                username='mpiuser'
+            ), SSHChannel(
+                '10.0.0.2',
+                envs={}, 
+                gssapi_auth=False, 
+                password=None, 
+                port=22, 
+                script_dir='/home/mpiuser/Downloads/parallel-parsl-workflow/', 
+                skip_auth=False, 
+                username='mpiuser'
+            )], 
+            cmd_timeout=30, 
+            move_files=None, 
+            parallelism=1, 
+            worker_init='\n\t\tsource /etc/profile\n\t\tsource ~/.profile\n\t\t'
+        ), 
+        storage_access=None, 
+        suppress_failure=True, 
+        worker_debug=False, 
+        worker_logdir_root='/home/mpiuser/Downloads/parallel-parsl-workflow/', 
+        worker_port_range=(54000, 55000), 
+        worker_ports=None, 
+        working_dir=None
+    )], 
+    initialize_logging=True, 
+    lazy_errors=True, 
+    max_idletime=2.0, 
+    monitoring=None, 
+    retries=0, 
+    run_dir='runinfo', 
+    strategy=None, 
+    usage_tracking=False
+)
+2019-11-29 17:14:50.695 parsl.dataflow.dflow:84 [INFO]  Parsl version: 0.9.0
+2019-11-29 17:14:50.695 parsl.dataflow.usage_tracking.usage:126 [DEBUG]  Tracking status: False
+2019-11-29 17:14:50.696 parsl.dataflow.usage_tracking.usage:127 [DEBUG]  Testing mode   : False
+2019-11-29 17:14:50.696 parsl.dataflow.dflow:110 [INFO]  Run id is: 301c0f07-cdfb-44c3-89c3-7898ec0d60f0
+2019-11-29 17:14:50.775 parsl.dataflow.memoization:52 [INFO]  App caching initialized
+2019-11-29 17:14:50.775 parsl.dataflow.dflow:824 [DEBUG]  Creating script_dir across multiple channels
+2019-11-29 17:14:50.928 parsl.executors.high_throughput.executor:453 [DEBUG]  Starting queue management thread
+2019-11-29 17:14:50.930 parsl.executors.high_throughput.executor:326 [DEBUG]  [MTHREAD] queue management worker starting
+2019-11-29 17:14:50.930 parsl.executors.high_throughput.executor:457 [DEBUG]  Started queue management thread
+2019-11-29 17:14:50.976 parsl.executors.high_throughput.executor:289 [DEBUG]  Created management thread: <Thread(HTEX-Queue-Management-Thread, started daemon 139890759030528)>
+2019-11-29 17:14:50.976 parsl.executors.high_throughput.executor:263 [DEBUG]  Launch command: process_worker_pool.py  --max_workers=2 -p 0 -c 1.0 -m None --poll 10 --task_url=tcp://10.0.0.1:54260 --result_url=tcp://10.0.0.1:54735 --logdir=/home/mpiuser/Downloads/parallel-parsl-workflow//remote_htex --block_id={block_id} --hb_period=30 --hb_threshold=120 
+2019-11-29 17:14:50.977 parsl.executors.high_throughput.executor:266 [DEBUG]  Starting HighThroughputExecutor with provider:
+AdHocProvider(
+    channels=[SSHChannel(
+        '10.0.0.1',
+        envs={}, 
+        gssapi_auth=False, 
+        password=None, 
+        port=22, 
+        script_dir='/home/mpiuser/Downloads/parallel-parsl-workflow/', 
+        skip_auth=False, 
+        username='mpiuser'
+    ), SSHChannel(
+        '10.0.0.2',
+        envs={}, 
+        gssapi_auth=False, 
+        password=None, 
+        port=22, 
+        script_dir='/home/mpiuser/Downloads/parallel-parsl-workflow/', 
+        skip_auth=False, 
+        username='mpiuser'
+    )], 
+    cmd_timeout=30, 
+    move_files=None, 
+    parallelism=1, 
+    worker_init='\n\t\tsource /etc/profile\n\t\tsource ~/.profile\n\t\t'
+)
+2019-11-29 17:14:50.982 parsl.providers.ad_hoc.ad_hoc:119 [DEBUG]  Channel_counts : {SSHChannel(
+    '10.0.0.2',
+    envs={}, 
+    gssapi_auth=False, 
+    password=None, 
+    port=22, 
+    script_dir='/home/mpiuser/Downloads/parallel-parsl-workflow/', 
+    skip_auth=False, 
+    username='mpiuser'
+): 0, SSHChannel(
+    '10.0.0.1',
+    envs={}, 
+    gssapi_auth=False, 
+    password=None, 
+    port=22, 
+    script_dir='/home/mpiuser/Downloads/parallel-parsl-workflow/', 
+    skip_auth=False, 
+    username='mpiuser'
+): 0}
+2019-11-29 17:14:50.982 parsl.providers.ad_hoc.ad_hoc:174 [DEBUG]  Pushing start script
+2019-11-29 17:14:51.190 parsl.executors.high_throughput.executor:569 [DEBUG]  Launched block 0->2347
+2019-11-29 17:14:51.195 parsl.providers.ad_hoc.ad_hoc:174 [DEBUG]  Pushing start script
+2019-11-29 17:14:51.290 parsl.executors.high_throughput.executor:569 [DEBUG]  Launched block 1->22838
+2019-11-29 17:14:51.291 parsl.dataflow.strategy:125 [DEBUG]  Scaling strategy: None
+2019-11-29 17:14:51.295 parsl.dataflow.dflow:484 [DEBUG]  Adding output dependencies
+2019-11-29 17:14:51.295 parsl.dataflow.dflow:708 [INFO]  Task 0 submitted for App generate, waiting on tasks []
+2019-11-29 17:14:51.296 parsl.dataflow.dflow:714 [DEBUG]  Task 0 set to pending state with AppFuture: <AppFuture super=<AppFuture at 0x7f3aee2c7cf8 state=pending>>
+2019-11-29 17:14:51.296 parsl.executors.high_throughput.executor:537 [DEBUG]  Pushing function <function generate at 0x7f3aee2500d0> to queue with args (10, 0)
+2019-11-29 17:14:51.477 parsl.dataflow.dflow:452 [INFO]  Task 0 launched on executor remote_htex
+2019-11-29 17:14:51.477 parsl.dataflow.dflow:484 [DEBUG]  Adding output dependencies
+2019-11-29 17:14:51.477 parsl.dataflow.dflow:708 [INFO]  Task 1 submitted for App generate, waiting on tasks []
+2019-11-29 17:14:51.477 parsl.dataflow.dflow:714 [DEBUG]  Task 1 set to pending state with AppFuture: <AppFuture super=<AppFuture at 0x7f3af4531550 state=pending>>
+2019-11-29 17:14:51.477 parsl.executors.high_throughput.executor:537 [DEBUG]  Pushing function <function generate at 0x7f3aee2500d0> to queue with args (10, 1)
+2019-11-29 17:14:51.478 parsl.dataflow.dflow:452 [INFO]  Task 1 launched on executor remote_htex
+2019-11-29 17:14:51.478 parsl.dataflow.dflow:484 [DEBUG]  Adding output dependencies
+2019-11-29 17:14:51.478 parsl.dataflow.dflow:708 [INFO]  Task 2 submitted for App generate, waiting on tasks []
+2019-11-29 17:14:51.478 parsl.dataflow.dflow:714 [DEBUG]  Task 2 set to pending state with AppFuture: <AppFuture super=<AppFuture at 0x7f3aee24e208 state=pending>>
+2019-11-29 17:14:51.478 parsl.executors.high_throughput.executor:537 [DEBUG]  Pushing function <function generate at 0x7f3aee2500d0> to queue with args (10, 2)
+2019-11-29 17:14:51.478 parsl.dataflow.dflow:452 [INFO]  Task 2 launched on executor remote_htex
+2019-11-29 17:14:51.479 parsl.dataflow.dflow:484 [DEBUG]  Adding output dependencies
+2019-11-29 17:14:51.479 parsl.dataflow.dflow:708 [INFO]  Task 3 submitted for App generate, waiting on tasks []
+2019-11-29 17:14:51.479 parsl.dataflow.dflow:714 [DEBUG]  Task 3 set to pending state with AppFuture: <AppFuture super=<AppFuture at 0x7f3abe2fe940 state=pending>>
+2019-11-29 17:14:51.479 parsl.executors.high_throughput.executor:537 [DEBUG]  Pushing function <function generate at 0x7f3aee2500d0> to queue with args (10, 3)
+2019-11-29 17:14:51.479 parsl.dataflow.dflow:452 [INFO]  Task 3 launched on executor remote_htex
+2019-11-29 17:14:51.479 parsl.dataflow.dflow:484 [DEBUG]  Adding output dependencies
+2019-11-29 17:14:51.479 parsl.dataflow.dflow:708 [INFO]  Task 4 submitted for App generate, waiting on tasks []
+2019-11-29 17:14:51.479 parsl.dataflow.dflow:714 [DEBUG]  Task 4 set to pending state with AppFuture: <AppFuture super=<AppFuture at 0x7f3abe2e9c18 state=pending>>
+2019-11-29 17:14:51.479 parsl.executors.high_throughput.executor:537 [DEBUG]  Pushing function <function generate at 0x7f3aee2500d0> to queue with args (10, 4)
+2019-11-29 17:14:51.480 parsl.dataflow.dflow:452 [INFO]  Task 4 launched on executor remote_htex
+2019-11-29 17:14:51.480 parsl.dataflow.dflow:484 [DEBUG]  Adding output dependencies
+2019-11-29 17:14:51.480 parsl.dataflow.dflow:708 [INFO]  Task 5 submitted for App generate, waiting on tasks []
+2019-11-29 17:14:51.480 parsl.dataflow.dflow:714 [DEBUG]  Task 5 set to pending state with AppFuture: <AppFuture super=<AppFuture at 0x7f3abe2e9d30 state=pending>>
+2019-11-29 17:14:51.480 parsl.executors.high_throughput.executor:537 [DEBUG]  Pushing function <function generate at 0x7f3aee2500d0> to queue with args (10, 5)
+2019-11-29 17:14:51.480 parsl.dataflow.dflow:452 [INFO]  Task 5 launched on executor remote_htex
+2019-11-29 17:14:51.481 parsl.dataflow.dflow:484 [DEBUG]  Adding output dependencies
+2019-11-29 17:14:51.481 parsl.dataflow.dflow:708 [INFO]  Task 6 submitted for App generate, waiting on tasks []
+2019-11-29 17:14:51.481 parsl.dataflow.dflow:714 [DEBUG]  Task 6 set to pending state with AppFuture: <AppFuture super=<AppFuture at 0x7f3abe2e9e48 state=pending>>
+2019-11-29 17:14:51.481 parsl.executors.high_throughput.executor:537 [DEBUG]  Pushing function <function generate at 0x7f3aee2500d0> to queue with args (10, 6)
+2019-11-29 17:14:51.481 parsl.dataflow.dflow:452 [INFO]  Task 6 launched on executor remote_htex
+2019-11-29 17:14:51.481 parsl.dataflow.dflow:484 [DEBUG]  Adding output dependencies
+2019-11-29 17:14:51.481 parsl.dataflow.dflow:708 [INFO]  Task 7 submitted for App generate, waiting on tasks []
+2019-11-29 17:14:51.481 parsl.dataflow.dflow:714 [DEBUG]  Task 7 set to pending state with AppFuture: <AppFuture super=<AppFuture at 0x7f3abe2e9f60 state=pending>>
+2019-11-29 17:14:51.481 parsl.executors.high_throughput.executor:537 [DEBUG]  Pushing function <function generate at 0x7f3aee2500d0> to queue with args (10, 7)
+2019-11-29 17:14:51.482 parsl.dataflow.dflow:452 [INFO]  Task 7 launched on executor remote_htex
+2019-11-29 17:14:51.482 parsl.dataflow.dflow:484 [DEBUG]  Adding output dependencies
+2019-11-29 17:14:51.482 parsl.dataflow.dflow:708 [INFO]  Task 8 submitted for App generate, waiting on tasks []
+2019-11-29 17:14:51.482 parsl.dataflow.dflow:714 [DEBUG]  Task 8 set to pending state with AppFuture: <AppFuture super=<AppFuture at 0x7f3abe2750b8 state=pending>>
+2019-11-29 17:14:51.482 parsl.executors.high_throughput.executor:537 [DEBUG]  Pushing function <function generate at 0x7f3aee2500d0> to queue with args (10, 8)
+2019-11-29 17:14:51.482 parsl.dataflow.dflow:452 [INFO]  Task 8 launched on executor remote_htex
+2019-11-29 17:14:51.482 parsl.dataflow.dflow:484 [DEBUG]  Adding output dependencies
+2019-11-29 17:14:51.482 parsl.dataflow.dflow:708 [INFO]  Task 9 submitted for App generate, waiting on tasks []
+2019-11-29 17:14:51.482 parsl.dataflow.dflow:714 [DEBUG]  Task 9 set to pending state with AppFuture: <AppFuture super=<AppFuture at 0x7f3abe2751d0 state=pending>>
+2019-11-29 17:14:51.483 parsl.executors.high_throughput.executor:537 [DEBUG]  Pushing function <function generate at 0x7f3aee2500d0> to queue with args (10, 9)
+2019-11-29 17:14:51.483 parsl.dataflow.dflow:452 [INFO]  Task 9 launched on executor remote_htex
+2019-11-29 17:14:52.440 parsl.dataflow.dflow:288 [INFO]  Task 0 completed
+2019-11-29 17:14:53.469 parsl.dataflow.dflow:288 [INFO]  Task 1 completed
+2019-11-29 17:14:54.592 parsl.dataflow.dflow:288 [INFO]  Task 2 completed
+2019-11-29 17:14:56.149 parsl.dataflow.dflow:288 [INFO]  Task 3 completed
+2019-11-29 17:14:57.085 parsl.dataflow.dflow:288 [INFO]  Task 4 completed
+2019-11-29 17:14:58.866 parsl.dataflow.dflow:288 [INFO]  Task 5 completed
+2019-11-29 17:15:01.126 parsl.dataflow.dflow:288 [INFO]  Task 6 completed
+2019-11-29 17:15:04.987 parsl.dataflow.dflow:288 [INFO]  Task 7 completed
+2019-11-29 17:15:05.987 parsl.dataflow.dflow:288 [INFO]  Task 8 completed
+2019-11-29 17:15:09.254 parsl.dataflow.dflow:288 [INFO]  Task 9 completed
+2019-11-29 17:15:09.256 parsl.dataflow.dflow:864 [INFO]  DFK cleanup initiated
+2019-11-29 17:15:09.257 parsl.dataflow.dflow:750 [INFO]  Summary of tasks in DFK:
+2019-11-29 17:15:09.258 parsl.dataflow.dflow:781 [INFO]  Tasks in state States.done: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+2019-11-29 17:15:09.258 parsl.dataflow.dflow:788 [INFO]  End of summary
+2019-11-29 17:15:09.259 parsl.dataflow.dflow:888 [INFO]  Terminating flow_control and strategy threads
+2019-11-29 17:15:09.260 parsl.executors.threads:96 [DEBUG]  Done with executor shutdown
+2019-11-29 17:15:09.265 parsl.executors.high_throughput.executor:507 [DEBUG]  [HOLD_BLOCK]: Sending hold to manager: fb00b7b8fecc
+2019-11-29 17:15:09.272 parsl.executors.high_throughput.executor:475 [DEBUG]  Sent hold request to worker: fb00b7b8fecc
+2019-11-29 17:15:09.278 parsl.executors.high_throughput.executor:507 [DEBUG]  [HOLD_BLOCK]: Sending hold to manager: 5e135edf9c8d
+2019-11-29 17:15:09.287 parsl.executors.high_throughput.executor:475 [DEBUG]  Sent hold request to worker: 5e135edf9c8d
+2019-11-29 17:15:09.287 parsl.providers.ad_hoc.ad_hoc:238 [DEBUG]  Cancelling jobs: ['2347', '22838']
+2019-11-29 17:15:09.338 parsl.executors.high_throughput.executor:634 [INFO]  Attempting HighThroughputExecutor shutdown
+2019-11-29 17:15:09.338 parsl.executors.high_throughput.executor:638 [INFO]  Finished HighThroughputExecutor shutdown attempt
+2019-11-29 17:15:09.338 parsl.dataflow.dflow:920 [INFO]  DFK cleanup complete

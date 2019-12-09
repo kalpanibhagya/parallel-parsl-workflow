@@ -1,0 +1,165 @@
+2019-11-28 20:25:33.345 parsl:592 Rank:0 [INFO]  Python version: 3.5.2 (default, Oct  8 2019, 13:06:37) 
+[GCC 5.4.0 20160609]
+2019-11-28 20:25:33.345 parsl:593 Rank:0 [INFO]  Debug logging: True
+2019-11-28 20:25:33.345 parsl:594 Rank:0 [INFO]  Log dir: /home/mpiuser/Downloads/parallel-parsl-workflow/runinfo/000/htex_Local
+2019-11-28 20:25:33.345 parsl:595 Rank:0 [INFO]  Manager ID: 753fd25ce596
+2019-11-28 20:25:33.345 parsl:596 Rank:0 [INFO]  Block ID: 0
+2019-11-28 20:25:33.345 parsl:597 Rank:0 [INFO]  cores_per_worker: 1
+2019-11-28 20:25:33.345 parsl:598 Rank:0 [INFO]  mem_per_worker: None
+2019-11-28 20:25:33.345 parsl:599 Rank:0 [INFO]  task_url: tcp://127.0.0.1:54782
+2019-11-28 20:25:33.346 parsl:600 Rank:0 [INFO]  result_url: tcp://127.0.0.1:54195
+2019-11-28 20:25:33.346 parsl:601 Rank:0 [INFO]  max_workers: inf
+2019-11-28 20:25:33.346 parsl:602 Rank:0 [INFO]  poll_period: 10
+2019-11-28 20:25:33.346 parsl:603 Rank:0 [INFO]  Prefetch capacity: 0
+2019-11-28 20:25:33.346 parsl:108 Rank:0 [INFO]  Manager started
+2019-11-28 20:25:33.346 parsl:122 Rank:0 [INFO]  Manager connected
+2019-11-28 20:25:33.347 parsl:148 Rank:0 [INFO]  Manager will spawn 4 workers
+2019-11-28 20:25:33.422 parsl:370 Rank:0 [DEBUG]  Manager synced with workers
+2019-11-28 20:25:33.423 parsl:199 Rank:0 [INFO]  [TASK PULL THREAD] starting
+2019-11-28 20:25:33.423 parsl:279 Rank:0 [DEBUG]  [RESULT_PUSH_THREAD] Starting thread
+2019-11-28 20:25:33.424 parsl:282 Rank:0 [DEBUG]  [RESULT_PUSH_THREAD] push poll period: 0.01
+2019-11-28 20:25:33.424 parsl:315 Rank:0 [DEBUG]  [WORKER_WATCHDOG_THREAD] Starting thread
+2019-11-28 20:25:33.424 parsl:385 Rank:0 [INFO]  Loop start
+2019-11-28 20:25:33.426 parsl:205 Rank:0 [DEBUG]  Sending registration message: b'{"os": "Linux", "reg_time": "2019-11-28 20:25:33", "prefetch_capacity": 0, "block_id": "0", "dir": "/home/mpiuser/Downloads/parallel-parsl-workflow", "parsl_v": "0.9.0", "cpu_count": 2, "python_v": "3.5.2", "hostname": "kalpani-Aspire-E5-574G", "worker_count": 4, "total_memory": 8225275904, "max_capacity": 4}'
+2019-11-28 20:25:33.426 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2019-11-28 20:25:33.426 parsl:225 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2019-11-28 20:25:33.437 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:33.437 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:4, pending tasks:0
+2019-11-28 20:25:33.437 parsl:225 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 4
+2019-11-28 20:25:33.457 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:33.457 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:4, pending tasks:0
+2019-11-28 20:25:33.458 parsl:225 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 4
+2019-11-28 20:25:33.481 parsl:248 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [1, 2, 3, 4] of 4
+2019-11-28 20:25:33.482 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:4, pending tasks:4
+2019-11-28 20:25:33.484 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:33.484 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:4, pending tasks:2
+2019-11-28 20:25:33.485 parsl:225 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 4
+2019-11-28 20:25:33.507 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:33.507 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:0, pending tasks:0
+2019-11-28 20:25:33.547 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:33.547 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:0, pending tasks:0
+2019-11-28 20:25:33.628 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:33.628 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:0, pending tasks:0
+2019-11-28 20:25:33.789 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:33.789 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:1, pending tasks:0
+2019-11-28 20:25:33.790 parsl:225 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 1
+2019-11-28 20:25:33.793 parsl:248 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [5] of 5
+2019-11-28 20:25:33.793 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:1, pending tasks:1
+2019-11-28 20:25:33.794 parsl:225 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 1
+2019-11-28 20:25:33.795 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:33.796 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:1, pending tasks:0
+2019-11-28 20:25:33.796 parsl:225 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 1
+2019-11-28 20:25:33.817 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:33.818 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:0, pending tasks:0
+2019-11-28 20:25:33.858 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:33.859 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:0, pending tasks:0
+2019-11-28 20:25:33.940 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:33.940 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:0, pending tasks:0
+2019-11-28 20:25:34.101 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:34.102 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:0, pending tasks:0
+2019-11-28 20:25:34.422 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:34.423 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:0, pending tasks:0
+2019-11-28 20:25:35.064 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:35.065 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:1, pending tasks:0
+2019-11-28 20:25:35.065 parsl:225 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 1
+2019-11-28 20:25:35.068 parsl:248 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [6] of 6
+2019-11-28 20:25:35.069 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:1, pending tasks:1
+2019-11-28 20:25:35.069 parsl:225 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 1
+2019-11-28 20:25:35.070 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:35.071 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:1, pending tasks:0
+2019-11-28 20:25:35.071 parsl:225 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 1
+2019-11-28 20:25:35.093 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:35.093 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:0, pending tasks:0
+2019-11-28 20:25:35.134 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:35.135 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:0, pending tasks:0
+2019-11-28 20:25:35.216 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:35.216 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:0, pending tasks:0
+2019-11-28 20:25:35.377 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:35.378 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:0, pending tasks:0
+2019-11-28 20:25:35.698 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:35.699 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:1, pending tasks:0
+2019-11-28 20:25:35.699 parsl:225 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 1
+2019-11-28 20:25:35.701 parsl:248 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [7] of 7
+2019-11-28 20:25:35.701 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:1, pending tasks:1
+2019-11-28 20:25:35.701 parsl:225 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 1
+2019-11-28 20:25:35.702 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:35.702 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:1, pending tasks:0
+2019-11-28 20:25:35.703 parsl:225 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 1
+2019-11-28 20:25:35.723 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:35.724 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:0, pending tasks:0
+2019-11-28 20:25:35.764 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:35.765 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:0, pending tasks:0
+2019-11-28 20:25:35.846 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:35.846 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:0, pending tasks:0
+2019-11-28 20:25:36.007 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:36.007 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:0, pending tasks:0
+2019-11-28 20:25:36.328 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:36.329 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:0, pending tasks:0
+2019-11-28 20:25:36.970 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:36.971 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:1, pending tasks:0
+2019-11-28 20:25:36.971 parsl:225 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 1
+2019-11-28 20:25:36.974 parsl:248 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [8] of 8
+2019-11-28 20:25:36.975 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:1, pending tasks:1
+2019-11-28 20:25:36.975 parsl:225 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 1
+2019-11-28 20:25:36.976 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:36.977 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:1, pending tasks:0
+2019-11-28 20:25:36.977 parsl:225 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 1
+2019-11-28 20:25:36.998 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:36.999 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:0, pending tasks:0
+2019-11-28 20:25:37.039 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:37.040 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:0, pending tasks:0
+2019-11-28 20:25:37.121 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:37.122 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:0, pending tasks:0
+2019-11-28 20:25:37.283 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:37.283 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:0, pending tasks:0
+2019-11-28 20:25:37.604 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:37.604 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:0, pending tasks:0
+2019-11-28 20:25:38.246 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:38.246 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:1, pending tasks:0
+2019-11-28 20:25:38.247 parsl:225 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 1
+2019-11-28 20:25:38.253 parsl:248 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [9] of 9
+2019-11-28 20:25:38.254 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:1, pending tasks:1
+2019-11-28 20:25:38.254 parsl:225 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 1
+2019-11-28 20:25:38.255 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:38.256 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:1, pending tasks:0
+2019-11-28 20:25:38.257 parsl:225 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 1
+2019-11-28 20:25:38.277 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:38.278 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:0, pending tasks:0
+2019-11-28 20:25:38.319 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:38.319 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:0, pending tasks:0
+2019-11-28 20:25:38.400 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:38.401 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:0, pending tasks:0
+2019-11-28 20:25:38.561 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:38.562 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:0, pending tasks:0
+2019-11-28 20:25:38.883 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:38.884 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:0, pending tasks:0
+2019-11-28 20:25:39.525 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:39.525 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:0, pending tasks:0
+2019-11-28 20:25:40.807 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:40.808 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:1, pending tasks:0
+2019-11-28 20:25:40.808 parsl:225 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 1
+2019-11-28 20:25:40.811 parsl:248 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [10] of 10
+2019-11-28 20:25:40.812 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:1, pending tasks:1
+2019-11-28 20:25:40.812 parsl:225 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 1
+2019-11-28 20:25:40.813 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:40.814 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:1, pending tasks:0
+2019-11-28 20:25:40.815 parsl:225 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 1
+2019-11-28 20:25:40.837 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:40.837 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:0, pending tasks:0
+2019-11-28 20:25:40.878 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:40.879 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:0, pending tasks:0
+2019-11-28 20:25:40.959 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:40.960 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:0, pending tasks:0
+2019-11-28 20:25:41.121 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:41.122 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:0, pending tasks:0
+2019-11-28 20:25:41.443 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:41.444 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:0, pending tasks:0
+2019-11-28 20:25:42.085 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:42.086 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:1, pending tasks:0
+2019-11-28 20:25:42.086 parsl:225 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 1
+2019-11-28 20:25:43.368 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:43.368 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:1, pending tasks:0
+2019-11-28 20:25:43.369 parsl:225 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 1
+2019-11-28 20:25:45.932 parsl:256 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2019-11-28 20:25:45.932 parsl:218 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:2, pending tasks:0
+2019-11-28 20:25:45.932 parsl:225 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 2

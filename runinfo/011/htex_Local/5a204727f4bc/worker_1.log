@@ -1,0 +1,4 @@
+2019-11-29 17:28:42.539 worker_log:467 Rank:1 [INFO]  Worker 1 started
+2019-11-29 17:28:42.539 worker_log:469 Rank:1 [DEBUG]  Debug logging enabled
+2019-11-29 17:28:42.550 worker_log:478 Rank:1 [INFO]  Received task 2
+2019-11-29 17:28:44.737 worker_log:496 Rank:1 [INFO]  Completed task 2

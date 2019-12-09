@@ -1,0 +1,20 @@
+2019-12-02 13:11:02.375 interchange:155 [INFO]  Attempting connection to client at 127.0.0.1 on ports: 55916,55569,55866
+2019-12-02 13:11:02.400 interchange:168 [INFO]  Connected to client
+2019-12-02 13:11:02.402 interchange:204 [INFO]  Bound to ports 54607,54942 for incoming worker connections
+2019-12-02 13:11:02.403 interchange:218 [INFO]  Platform info: {'dir': '/home/mpiuser/Downloads/parallel-parsl-workflow', 'python_v': '3.5.2', 'os': 'Linux', 'parsl_v': '0.9.0', 'hostname': 'kalpani-Aspire-E5-574G'}
+2019-12-02 13:11:02.405 interchange:336 [INFO]  Incoming ports bound
+2019-12-02 13:11:02.407 interchange:253 [INFO]  [TASK_PULL_THREAD] Starting
+2019-12-02 13:11:04.035 interchange:397 [INFO]  [MAIN] Adding manager: b'f62e06d06498' to ready queue
+2019-12-02 13:11:04.035 interchange:399 [INFO]  [MAIN] Registration info for manager b'f62e06d06498': {'total_memory': 8225275904, 'parsl_v': '0.9.0', 'cpu_count': 2, 'worker_count': 2, 'max_capacity': 2, 'reg_time': datetime.datetime(2019, 12, 2, 13, 11, 4), 'block_id': '1', 'prefetch_capacity': 0, 'os': 'Linux', 'hostname': 'kalpani-Aspire-E5-574G', 'dir': '/home/mpiuser', 'python_v': '3.5.2'}
+2019-12-02 13:11:04.036 interchange:419 [INFO]  [MAIN] Manager b'f62e06d06498' has compatible Parsl version 0.9.0
+2019-12-02 13:11:04.036 interchange:421 [INFO]  [MAIN] Manager b'f62e06d06498' has compatible Python version 3.5
+2019-12-02 13:11:07.106 interchange:397 [INFO]  [MAIN] Adding manager: b'720a54608da1' to ready queue
+2019-12-02 13:11:07.106 interchange:399 [INFO]  [MAIN] Registration info for manager b'720a54608da1': {'total_memory': 8148598784, 'parsl_v': '0.9.0', 'cpu_count': 2, 'worker_count': 2, 'max_capacity': 2, 'reg_time': datetime.datetime(2019, 12, 2, 13, 11, 6), 'prefetch_capacity': 0, 'os': 'Linux', 'hostname': 'rajini-Flex-3-1480', 'dir': '/home/mpiuser', 'block_id': '0', 'python_v': '3.5.2'}
+2019-12-02 13:11:07.107 interchange:419 [INFO]  [MAIN] Manager b'720a54608da1' has compatible Parsl version 0.9.0
+2019-12-02 13:11:07.107 interchange:421 [INFO]  [MAIN] Manager b'720a54608da1' has compatible Python version 3.5
+2019-12-02 13:11:16.998 interchange:306 [INFO]  [CMD] Received HOLD_WORKER for b'f62e06d06498'
+2019-12-02 13:11:17.000 interchange:306 [INFO]  [CMD] Received HOLD_WORKER for b'f62e06d06498'
+2019-12-02 13:11:17.002 interchange:306 [INFO]  [CMD] Received HOLD_WORKER for b'f62e06d06498'
+2019-12-02 13:11:17.008 interchange:306 [INFO]  [CMD] Received HOLD_WORKER for b'720a54608da1'
+2019-12-02 13:11:17.010 interchange:306 [INFO]  [CMD] Received HOLD_WORKER for b'720a54608da1'
+2019-12-02 13:11:17.011 interchange:306 [INFO]  [CMD] Received HOLD_WORKER for b'720a54608da1'

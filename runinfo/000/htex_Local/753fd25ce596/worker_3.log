@@ -1,0 +1,6 @@
+2019-11-28 20:25:33.426 worker_log:467 Rank:3 [INFO]  Worker 3 started
+2019-11-28 20:25:33.426 worker_log:469 Rank:3 [DEBUG]  Debug logging enabled
+2019-11-28 20:25:33.501 worker_log:478 Rank:3 [INFO]  Received task 4
+2019-11-28 20:25:36.695 worker_log:496 Rank:3 [INFO]  Completed task 4
+2019-11-28 20:25:36.976 worker_log:478 Rank:3 [INFO]  Received task 8
+2019-11-28 20:25:43.984 worker_log:496 Rank:3 [INFO]  Completed task 8

@@ -1,0 +1,5 @@
+2019-11-29 17:28:42.484 worker_log:467 Rank:1 [INFO]  Worker 1 started
+2019-11-29 17:28:42.490 worker_log:478 Rank:1 [INFO]  Received task 2
+2019-11-29 17:28:46.689 worker_log:496 Rank:1 [INFO]  Completed task 2
+2019-11-29 17:28:48.868 worker_log:478 Rank:1 [INFO]  Received task 6
+2019-11-29 17:28:57.877 worker_log:496 Rank:1 [INFO]  Completed task 6

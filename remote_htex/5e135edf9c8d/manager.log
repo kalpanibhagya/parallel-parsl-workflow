@@ -1,0 +1,18 @@
+2019-11-29 17:14:52.245 parsl:592 Rank:0 [INFO]  Python version: 3.5.2 (default, Oct  8 2019, 13:06:37) 
+[GCC 5.4.0 20160609]
+2019-11-29 17:14:52.245 parsl:593 Rank:0 [INFO]  Debug logging: False
+2019-11-29 17:14:52.245 parsl:594 Rank:0 [INFO]  Log dir: /home/mpiuser/Downloads/parallel-parsl-workflow//remote_htex
+2019-11-29 17:14:52.245 parsl:595 Rank:0 [INFO]  Manager ID: 5e135edf9c8d
+2019-11-29 17:14:52.245 parsl:596 Rank:0 [INFO]  Block ID: 1
+2019-11-29 17:14:52.245 parsl:597 Rank:0 [INFO]  cores_per_worker: 1.0
+2019-11-29 17:14:52.245 parsl:598 Rank:0 [INFO]  mem_per_worker: None
+2019-11-29 17:14:52.245 parsl:599 Rank:0 [INFO]  task_url: tcp://10.0.0.1:54260
+2019-11-29 17:14:52.245 parsl:600 Rank:0 [INFO]  result_url: tcp://10.0.0.1:54735
+2019-11-29 17:14:52.245 parsl:601 Rank:0 [INFO]  max_workers: 2
+2019-11-29 17:14:52.245 parsl:602 Rank:0 [INFO]  poll_period: 10
+2019-11-29 17:14:52.245 parsl:603 Rank:0 [INFO]  Prefetch capacity: 0
+2019-11-29 17:14:52.245 parsl:108 Rank:0 [INFO]  Manager started
+2019-11-29 17:14:52.246 parsl:122 Rank:0 [INFO]  Manager connected
+2019-11-29 17:14:52.246 parsl:148 Rank:0 [INFO]  Manager will spawn 2 workers
+2019-11-29 17:14:52.262 parsl:199 Rank:0 [INFO]  [TASK PULL THREAD] starting
+2019-11-29 17:14:52.263 parsl:385 Rank:0 [INFO]  Loop start
